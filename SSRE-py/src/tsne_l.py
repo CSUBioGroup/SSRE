@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 realmin = 2.2251e-308
-def tsne_l(P, label=None, n_dims=2):
+def tsne_l (P, label=None, n_dims=2):
 	#P is a similarity matrix
 	# Check initial solution
 	if not isinstance(n_dims, int) and len(np.reshape(n_dims, -1))>1:
