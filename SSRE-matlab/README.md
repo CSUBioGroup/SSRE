@@ -1,4 +1,4 @@
-# SSRE-master
+# SSRE-matlab
 Cell type detection based on sparse-subspace representation and similarity enhancement
 ## Description
 % > Matlab R2016b <br />
