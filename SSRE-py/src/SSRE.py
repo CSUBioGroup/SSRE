@@ -8,7 +8,6 @@ from os.path import join, abspath, dirname
 import sys
 sys.path.append(dirname(abspath(__file__)))
 
-from utils import load_data
 from laplacian import LaplacianScore, spectralclustering
 from distances import all_similarities
 from preprocessing import filter_genes, matrixNormalize, l_gene_select, l_enhance, l_choose_edge
