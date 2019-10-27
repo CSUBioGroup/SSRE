@@ -7,8 +7,7 @@ import sys
 sys.path.append(dirname(abspath(__file__)))
 
 from src.SSRE import SSRE
-from src.utils import load_data
-from src.tsne_bo import tsne_bo
+from src.tsne_l import tsne_l
 
 
 # def parse_args():
