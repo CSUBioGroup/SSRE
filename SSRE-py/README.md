@@ -1,12 +1,12 @@
 # SSRE 
 SSRE (Sparse Subspace Representation and similarity Enhancement) is a single-cell clustering framework based on single-cell RNA sequencing (scRNA-seq) data.
 
-##Requirements of Python (version 3.5) packages 
+## Requirements of Python (version 3.5) packages 
 * numpy 
 * sklearn 
 * pandas 
 
-##Run
+## Run
 To use SSRE on given dataset Engel, please run
 ```
   cd path_to_SSRE-py/scr/
