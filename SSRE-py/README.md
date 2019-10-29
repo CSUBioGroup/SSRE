@@ -9,7 +9,7 @@ SSRE (Sparse Subspace Representation and similarity Enhancement) is a single-cel
 ## Run
 To use SSRE on given dataset Engel, please run
 ```
-  cd path_to_SSRE-py/scr/
+  cd path_to_SSRE-py/src/
   python main.py -d ../data/Test_Engel.txt -l ../data/Test_Engel_label.txt -p 10
 ```
 
