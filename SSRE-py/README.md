@@ -13,6 +13,12 @@ To use SSRE on given dataset Engel, please run
   python main.py -d ../data/Test_Engel.txt -l ../data/Test_Engel_label.txt -p 10
 ```
 
+Try different combination between SSR and three correlation methods (pearson, spearman, consine), run
+```
+  cd path_to_SSRE-py/src/
+  python main_combine.py -d ../data/Test_Engel.txt -l ../data/Test_Engel_label.txt -p 10
+```
+
 - **-d the path of data**\
         data is a gene expression matrix in which each column denotes a gene and each row denotes a cell
 - **-l the path of label**\
